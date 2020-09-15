@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0 50px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.product {
+  margin-top: 40px;
+  margin-bottom: 21px;
+}
+.product span{
+  font-weight: 700;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul {
+  justify-content: center;
+  background: antiquewhite;
+  padding: 10px;
+}
+nav ul li {
+  margin-left: 21px;
 }
